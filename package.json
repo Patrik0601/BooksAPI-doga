@@ -1,0 +1,30 @@
+{
+  "name": "booksapi-doga",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "type": "module",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Patrik0601/BooksAPI-doga.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "types": "commonjs",
+  "bugs": {
+    "url": "https://github.com/Patrik0601/BooksAPI-doga/issues"
+  },
+  "homepage": "https://github.com/Patrik0601/BooksAPI-doga#readme",
+  "dependencies": {
+    "better-sqlite3": "^12.5.0",
+    "express": "^5.2.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.11"
+  }
+}
